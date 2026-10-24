@@ -1,0 +1,47 @@
+:root {
+  --bg: #f4f3f0;
+  --surface: #ffffff;
+  --text: #22252a;
+  --muted: #7a7f87;
+  --line: #e2e0dc;
+  --accent-ui: #3f6fd8;
+  --danger: #d64545;
+  --shadow: 0 1px 2px rgba(20, 20, 30, 0.08), 0 2px 8px rgba(20, 20, 30, 0.06);
+  --shadow-lift: 0 6px 24px rgba(20, 20, 30, 0.18);
+  font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* While the theme changes, nothing fades (see theme.ts). */
+.theme-switching *,
+.theme-switching *::before,
+.theme-switching *::after {
+  transition: none !important;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+  overflow: clip;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+input {
+  font: inherit;
+  color: inherit;
+}
