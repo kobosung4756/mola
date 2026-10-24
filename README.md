@@ -1,2 +1,2 @@
 # mola
-Note taking app with ontology
+Note taking app with ontology (KOR/ENG) support
